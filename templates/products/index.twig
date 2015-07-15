@@ -1,0 +1,15 @@
+{% extends "base.twig" %}
+
+{% block title %}
+    index
+{% endblock %}
+
+{% block body %}
+    <ul>
+        {% for product in products %}
+            <li> {{ product.name }} </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+

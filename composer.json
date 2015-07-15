@@ -1,0 +1,15 @@
+{
+    "name": "abdessamad",
+    "require": {
+        "silex/silex": "2.0.x-dev",
+        "twig/twig": "v1.18.2",
+        "symfony/twig-bridge": "v2.7.1",
+        "dflydev/doctrine-orm-service-provider": "^2.0",
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Webomattic\\" : "src/"
+        }
+    }
+}
